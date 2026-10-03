@@ -4,7 +4,7 @@ HOST = "0.0.0.0"
 PORT = 8000
 class AppHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        body = "Advanced Git Docker App\n"
+        body = "Advanced Git Docker App - service ready\n"
         body += "Status: healthy - mannguyen2\n"
 
         self.send_response(200)
